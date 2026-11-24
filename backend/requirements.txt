@@ -1,0 +1,10 @@
+fastapi>=0.110,<1.0
+uvicorn[standard]>=0.29
+pydantic>=2.6,<3
+orjson>=3.9          # 빠른 JSON 직렬화 (없어도 동작)
+# 사내 DB 직접 조회 (DATA_SOURCE=sql) 시에만 필요
+# sqlalchemy>=2.0
+# oracledb / pyodbc / psycopg 등 사내 DB 드라이버
+# 테스트
+pytest>=8
+httpx>=0.27

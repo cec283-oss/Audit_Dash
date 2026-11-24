@@ -1,0 +1,4 @@
+﻿line_id,line_name,fab,node,tech
+L-A,FAB2 LINE-A,FAB2,N3,3nm GAA
+L-B,FAB2 LINE-B,FAB2,N4·N5,4·5nm FinFET
+L-C,FAB1 LINE-C,FAB1,N8,8nm FinFET
